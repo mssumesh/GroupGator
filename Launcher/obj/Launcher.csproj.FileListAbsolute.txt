@@ -1,0 +1,16 @@
+F:\Gator2\Launcher\bin\Debug\Launcher.exe
+F:\Gator2\Launcher\bin\Debug\Launcher.pdb
+F:\Gator2\Launcher\obj\Debug\ResolveAssemblyReference.cache
+F:\Gator2\Launcher\obj\Debug\Launcher.Form1.resources
+F:\Gator2\Launcher\obj\Debug\Launcher.Properties.Resources.resources
+F:\Gator2\Launcher\obj\Debug\Launcher.csproj.GenerateResource.Cache
+F:\Gator2\Launcher\obj\Debug\Launcher.exe
+F:\Gator2\Launcher\obj\Debug\Launcher.pdb
+F:\Gator2\Launcher\bin\Release\Launcher.exe
+F:\Gator2\Launcher\bin\Release\Launcher.pdb
+F:\Gator2\Launcher\obj\Release\ResolveAssemblyReference.cache
+F:\Gator2\Launcher\obj\Release\Launcher.Form1.resources
+F:\Gator2\Launcher\obj\Release\Launcher.Properties.Resources.resources
+F:\Gator2\Launcher\obj\Release\Launcher.csproj.GenerateResource.Cache
+F:\Gator2\Launcher\obj\Release\Launcher.exe
+F:\Gator2\Launcher\obj\Release\Launcher.pdb

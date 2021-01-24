@@ -1,0 +1,16 @@
+I:\Gator25\Admin\bin\Debug\Admin.dll
+I:\Gator25\Admin\bin\Debug\Admin.pdb
+I:\Gator25\Admin\obj\Debug\ResolveAssemblyReference.cache
+I:\Gator25\Admin\obj\Debug\Gator.AdminWindow.resources
+I:\Gator25\Admin\obj\Debug\Admin.Properties.Resources.resources
+I:\Gator25\Admin\obj\Debug\Admin.csproj.GenerateResource.Cache
+I:\Gator25\Admin\obj\Debug\Admin.dll
+I:\Gator25\Admin\obj\Debug\Admin.pdb
+I:\Gator25\Gator2\bin\Release\plugins\Admin.dll
+I:\Gator25\Gator2\bin\Release\plugins\Admin.pdb
+I:\Gator25\Admin\obj\Release\ResolveAssemblyReference.cache
+I:\Gator25\Admin\obj\Release\Gator.AdminWindow.resources
+I:\Gator25\Admin\obj\Release\Admin.Properties.Resources.resources
+I:\Gator25\Admin\obj\Release\Admin.csproj.GenerateResource.Cache
+I:\Gator25\Admin\obj\Release\Admin.dll
+I:\Gator25\Admin\obj\Release\Admin.pdb

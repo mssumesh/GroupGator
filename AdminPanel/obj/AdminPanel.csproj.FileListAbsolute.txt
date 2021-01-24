@@ -1,0 +1,14 @@
+I:\Gator25\AdminPanel\bin\Debug\AdminPanel.dll
+I:\Gator25\AdminPanel\bin\Debug\AdminPanel.pdb
+I:\Gator25\AdminPanel\obj\Debug\ResolveAssemblyReference.cache
+I:\Gator25\AdminPanel\obj\Debug\AdminPanel.PlgMain.resources
+I:\Gator25\AdminPanel\obj\Debug\AdminPanel.csproj.GenerateResource.Cache
+I:\Gator25\AdminPanel\obj\Debug\AdminPanel.dll
+I:\Gator25\AdminPanel\obj\Debug\AdminPanel.pdb
+I:\Gator25\AdminPanel\bin\Release\AdminPanel.dll
+I:\Gator25\AdminPanel\bin\Release\AdminPanel.pdb
+I:\Gator25\AdminPanel\obj\Release\ResolveAssemblyReference.cache
+I:\Gator25\AdminPanel\obj\Release\AdminPanel.PlgMain.resources
+I:\Gator25\AdminPanel\obj\Release\AdminPanel.csproj.GenerateResource.Cache
+I:\Gator25\AdminPanel\obj\Release\AdminPanel.dll
+I:\Gator25\AdminPanel\obj\Release\AdminPanel.pdb

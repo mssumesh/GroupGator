@@ -1,0 +1,12 @@
+I:\Gator25\Gator2\bin\Release\Donor.dll
+I:\Gator25\Gator2\bin\Release\Donor.pdb
+I:\Gator25\Gator2\bin\Release\plugins\Donor.dll
+I:\Gator25\Gator2\bin\Release\plugins\Donor.pdb
+I:\Gator25\Donor\obj\Release\ResolveAssemblyReference.cache
+I:\Gator25\Donor\obj\Release\Gator25.frmAds.resources
+I:\Gator25\Donor\obj\Release\Gator25.PayPalWindow.resources
+I:\Gator25\Donor\obj\Release\Gator.DonorWindow.resources
+I:\Gator25\Donor\obj\Release\Donor.Properties.Resources.resources
+I:\Gator25\Donor\obj\Release\Donor.csproj.GenerateResource.Cache
+I:\Gator25\Donor\obj\Release\Donor.dll
+I:\Gator25\Donor\obj\Release\Donor.pdb

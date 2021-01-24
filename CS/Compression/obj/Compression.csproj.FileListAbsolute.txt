@@ -1,0 +1,7 @@
+F:\Gator2\CS\Compression\bin\Debug\Compression.exe
+F:\Gator2\CS\Compression\bin\Debug\Compression.pdb
+F:\Gator2\CS\Compression\obj\Debug\ResolveAssemblyReference.cache
+F:\Gator2\CS\Compression\obj\Debug\Microsoft.Sample.Compression.Resource1.resources
+F:\Gator2\CS\Compression\obj\Debug\Compression.csproj.GenerateResource.Cache
+F:\Gator2\CS\Compression\obj\Debug\Compression.exe
+F:\Gator2\CS\Compression\obj\Debug\Compression.pdb

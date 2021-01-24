@@ -1,0 +1,16 @@
+F:\Gator2\updater\bin\Debug\updater.exe
+F:\Gator2\updater\bin\Debug\updater.pdb
+F:\Gator2\updater\obj\Debug\ResolveAssemblyReference.cache
+F:\Gator2\updater\obj\Debug\updater.GatorUpdater.resources
+F:\Gator2\updater\obj\Debug\updater.Properties.Resources.resources
+F:\Gator2\updater\obj\Debug\updater.csproj.GenerateResource.Cache
+F:\Gator2\updater\obj\Debug\updater.exe
+F:\Gator2\updater\obj\Debug\updater.pdb
+F:\Gator2\updater\bin\Release\updater.exe
+F:\Gator2\updater\bin\Release\updater.pdb
+F:\Gator2\updater\obj\Release\ResolveAssemblyReference.cache
+F:\Gator2\updater\obj\Release\updater.GatorUpdater.resources
+F:\Gator2\updater\obj\Release\updater.Properties.Resources.resources
+F:\Gator2\updater\obj\Release\updater.csproj.GenerateResource.Cache
+F:\Gator2\updater\obj\Release\updater.exe
+F:\Gator2\updater\obj\Release\updater.pdb

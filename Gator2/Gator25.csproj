@@ -1,0 +1,415 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{28A23AEA-1C9D-4DBE-B2BD-8A102C7B8EFB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Gator25</RootNamespace>
+    <AssemblyName>Gator3</AssemblyName>
+    <ApplicationIcon>GG2Icon2.ico</ApplicationIcon>
+    <RunPostBuildEvent>Always</RunPostBuildEvent>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\plugins\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationManifest>Gator3.exe.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.mshtml, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdAPI.cs" />
+    <Compile Include="BitmapToRegion.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="Donate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Donate.Designer.cs">
+      <DependentUpon>Donate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FingerPrint.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAds.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAds.Designer.cs">
+      <DependentUpon>frmAds.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDisclamer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDisclamer.Designer.cs">
+      <DependentUpon>frmDisclamer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GatherList.cs" />
+    <Compile Include="GGDisk.cs" />
+    <Compile Include="Group.cs" />
+    <Compile Include="IPlugin.cs" />
+    <Compile Include="ListRandomizer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListRandomizer.Designer.cs">
+      <DependentUpon>ListRandomizer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyUtils.cs" />
+    <Compile Include="MyWeb.cs">
+    </Compile>
+    <Compile Include="PayPalWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PayPalWindow.Designer.cs">
+      <DependentUpon>PayPalWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Player.cs" />
+    <Compile Include="Plugin.cs" />
+    <Compile Include="Profile.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="About.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Donate.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Donate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAds.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAds.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDisclamer.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDisclamer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListRandomizer.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ListRandomizer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PayPalWindow.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PayPalWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToGroupDlg.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ToGroupDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateMessageDlg.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>UpdateMessageDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Gator3.exe.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SteamAuth.cs" />
+    <Compile Include="ToGroupDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToGroupDlg.Designer.cs">
+      <DependentUpon>ToGroupDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateMessageDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateMessageDlg.Designer.cs">
+      <DependentUpon>UpdateMessageDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Updater.cs">
+    </Compile>
+    <Compile Include="WebService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\mainaltbmp.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GG2Images\New Folder\IconCloseProgramRedX copy.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GG2ImagesBMP\IconCloseProgramRedX.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GG2ImagesBMP\IconCloseProgramRedX2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GG2ImagesBMP\IconHome.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GG2ImagesBMP\IconTwitter.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GG2ImagesBMP\IconFacebook.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GG2ImagesBMP\IconYouTube.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GG2ImagesBMP\IconYouTube2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GG2Images\IconYouTube.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GG2Images\IconCloseProgramRedX.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GG2Images\IconHome.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GG2Images\IconTwitter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GG2Images\IconFacebook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GG2Images\lo2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GG2Images\li1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GG2Images\li2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GG2Images\lo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GG2Images\buttonSTARTgreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GG2Images\buttonSTART.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GG2Images\buttonSTOPred.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GG2Images\buttonSTOPwhite.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GG2Images\buttonSTOPwhite2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GG2Images\buttonCLEARorange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GG2Images\buttonCLEAR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GG2Images\buttonLOAD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GG2Images\buttonSAVE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GG2Images\IconMinimizeProgramRed-.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GG2Images\minimizetrans.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\demobackground.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\demofit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\loginButtonUP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ld.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\lu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\regup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\freedn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\freeup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\regd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\loginButtonDOWN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\registerButtonDOWN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\registerButtonUP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\startButtonDOWN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\startButtonUP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GROUPGATOR2LoginBackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="res\loginbackbmp.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="GG2Icon2.ico" />
+    <None Include="Resources\ajax.gif" />
+    <None Include="Resources\busy1.gif" />
+    <None Include="Resources\busy.gif" />
+    <None Include="Resources\ajaxloader.gif" />
+    <None Include="Resources\bg2.png" />
+    <None Include="Resources\default.gif" />
+    <None Include="Resources\LINE.png" />
+    <None Include="Resources\smallbutton_paypal.bmp" />
+    <None Include="Resources\smallbutton_logoff.bmp" />
+    <None Include="Resources\xlargebutton_offer.bmp" />
+    <None Include="Resources\smallbutton-edit.bmp" />
+    <None Include="Resources\gtick.png" />
+    <None Include="Resources\Refresh.png" />
+    <None Include="Resources\steamcaptcha.txt" />
+    <None Include="Resources\donor6.txt" />
+    <None Include="Resources\donor5.txt" />
+    <None Include="Resources\donor4.txt" />
+    <None Include="Resources\donor3.txt" />
+    <None Include="Resources\donor2.txt" />
+    <None Include="Resources\donor1.txt" />
+    <None Include="Resources\button-register.bmp" />
+    <None Include="Resources\smallbutton-set.bmp" />
+    <None Include="Resources\smallbutton-get.bmp" />
+    <None Include="Resources\smallbutton-add.bmp" />
+    <None Include="Resources\smallbutton-clear.bmp" />
+    <None Include="Resources\smallbutton-save.bmp" />
+    <None Include="Resources\smallbutton-load.bmp" />
+    <None Include="Resources\button-stop.bmp" />
+    <None Include="Resources\button-start.bmp" />
+    <None Include="Resources\button-login.bmp" />
+    <None Include="Resources\smallbutton-unlock.bmp" />
+    <None Include="Resources\smallbutton-gift.bmp" />
+    <None Include="Resources\smallbutton-donate.bmp" />
+    <None Include="Resources\gg3bg728.bmp" />
+    <None Include="Resources\button-gather.bmp" />
+    <None Include="Resources\steamjs.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

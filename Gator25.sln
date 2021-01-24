@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Donor", "Donor\Donor.csproj", "{4247A41F-DD36-4F2A-8D48-97C13E877FA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Admin", "Admin\Admin.csproj", "{9B35DAB4-9592-4939-8269-1E64C0C14111}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gator25", "Gator2\Gator25.csproj", "{28A23AEA-1C9D-4DBE-B2BD-8A102C7B8EFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4247A41F-DD36-4F2A-8D48-97C13E877FA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4247A41F-DD36-4F2A-8D48-97C13E877FA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4247A41F-DD36-4F2A-8D48-97C13E877FA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4247A41F-DD36-4F2A-8D48-97C13E877FA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B35DAB4-9592-4939-8269-1E64C0C14111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B35DAB4-9592-4939-8269-1E64C0C14111}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B35DAB4-9592-4939-8269-1E64C0C14111}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B35DAB4-9592-4939-8269-1E64C0C14111}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28A23AEA-1C9D-4DBE-B2BD-8A102C7B8EFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28A23AEA-1C9D-4DBE-B2BD-8A102C7B8EFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28A23AEA-1C9D-4DBE-B2BD-8A102C7B8EFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28A23AEA-1C9D-4DBE-B2BD-8A102C7B8EFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
